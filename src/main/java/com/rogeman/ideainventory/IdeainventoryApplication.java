@@ -11,6 +11,8 @@ public class IdeainventoryApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(IdeainventoryApplication.class, args);
 	}
+	
+	//testing GIT
 
 }
 
