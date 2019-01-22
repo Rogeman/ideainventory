@@ -12,7 +12,7 @@ public class IdeainventoryApplication {
 		SpringApplication.run(IdeainventoryApplication.class, args);
 	}
 	
-	//testing GIT
+	
 
 }
 
