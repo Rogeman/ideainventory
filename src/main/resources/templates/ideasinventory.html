@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<H1> Ideas inventory</H1>
+    <form action="idea" method="post">
+    <textarea name="sendingIdea" style="width:800px" rows="20"></textarea>
+    <input type="submit">
+    
+    </form>
+    <div th:switch="${anIdea}"> 
+  <p th:case="null"></p>
+  <p th:case="*" th:text=${anIdea}/> 
+</div>
+
+
+<p th:text>${anIdea}
+    
+</body>
+</html>
